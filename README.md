@@ -4,8 +4,10 @@
 Archive of public Micro Consen-based versions of Bambus OS in the form of deployable system images (`.dsi`) installable on pure Micro Consen kernels.
 
 ### Layout
-System images are stored in the `/dsi` folder. Each release is in a seperate folder with `index.json` and various `.dsi` files. The `sys.dsi` file are always kernel dependencies while files like `1.dsi` and `2.dsi` are system images. They'll be usually joined together but sometimes they may be split due to file size limitations.
+System images are stored in the `/dsi` folder. Each release is in a seperate folder with `index.json` and various `.dsi` files. The `sys.dsi` file are always kernel dependencies while files like `1.dsi`, `2.dsi` and so on, are system images. They'll be usually joined together but sometimes they may be split due to file size limitations.
 
-### Avaliable versions
+# Version List
+### Consumer
 - Bambus OS 5.00 (`os.bambus_os-5.00`, 20.07.2024)
 - Bambus OS 5.01 (`os.bambus_os-5.01`, 21.07.2024)
+- Bambus OS 5.10 (`os.bambus_os-5.10`, 08.08.2024)

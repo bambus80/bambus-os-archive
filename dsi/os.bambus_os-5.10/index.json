@@ -1,0 +1,18 @@
+{
+    "version": 1,
+    "meta": {
+      "id": "os.bambus_os-5.10",
+      "display_name": "Bambus OS 5.10",
+      "deps": [
+        "kernel.modules.http",
+        "kernel.modules.interapp_driver",
+        "kernel.modules.pak_manager",
+        "kernel.modules.bambus_os_cmdmgr"
+      ]
+    },
+    "image": {
+      "src": ["1.dsi"],
+      "deps": ["sys.dsi"]
+    }
+  }
+  
