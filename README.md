@@ -3,6 +3,9 @@
 # Bambus OS Archive
 Archive of public Micro Consen-based versions of Bambus OS in the form of deployable system images (`.dsi`) installable on pure Micro Consen kernels.
 
+# Attention
+This Bambus OS DSI archive is no longer maintained and will be archived due to no interest in such a solution. Do not file issues or pull requests, we won't respond to it, but we're keeping the repo open until we develop a more suitable solution. 
+
 ### Layout
 System images are stored in the `/dsi` folder. Each release is in a seperate folder with `index.json` and various `.dsi` files. The `sys.dsi` file are always kernel dependencies while files like `1.dsi`, `2.dsi` and so on, are system images. They'll be usually joined together but sometimes they may be split due to file size limitations.
 
